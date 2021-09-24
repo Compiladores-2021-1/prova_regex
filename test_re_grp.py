@@ -99,7 +99,7 @@ from typing import Tuple
 import re
 
 
-def test_verifica_remover_comentários(check_value):
+def test_verifica_remover_comentários():
     with open("exemplo.py") as fd:
         src = fd.read()
 
